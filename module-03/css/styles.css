@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Playfair Display", sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.page-header {
+    margin-bottom: 22px;
+}
+
+.page-nav {
+    padding: 75px 0;
+}
+
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 124px;
+}
+
+
+.site-navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
+}
+
+.articles {
+    margin-bottom: 68px;
+}
+
+.articles-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.articles-list-item {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 130px;
+    
+}
+
+.articles-list-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.articles-list-item:nth-last-child(-n +2) {
+    margin-bottom: 0;
+}
+
+.articles-list-item div {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.articles-list-item h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 28px;
+}
+
+.articles-list-item p {
+    font-size: 14px;
+}
+
+.load-button {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 54px;
+    margin-right: 360px;
+    margin-left: 360px;
+    padding: 20px 32px;
+    cursor: pointer;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
