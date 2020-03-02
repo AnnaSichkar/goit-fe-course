@@ -82,17 +82,17 @@ img {
     display: inline-block;
     width: 420px;
     margin-right: 60px;
-    margin-bottom: 130px;
-    
+    margin-bottom: 130px;   
 }
 
 .articles-list-item:nth-child(2n) {
     margin-right: 0;
 }
 
-/*.articles-list-item:nth-last-child(-n +2) {
+.articles-list li:nth-child(-n +2) {
     margin-bottom: 0;
-}*/
+}
+
 
 .articles-list-item div {
     font-family: 'Ubuntu', sans-serif;
@@ -123,6 +123,11 @@ img {
     margin: 0 auto;
     padding: 20px 32px;
     cursor: pointer;
+}
+
+.load-button:hover,
+.load-button:focus {
+    color: #03a9f4;
 }
 
 .visually-hidden:not(:focus):not(:active),
