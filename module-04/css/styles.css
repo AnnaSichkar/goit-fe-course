@@ -30,7 +30,7 @@ img {
 }
 
 .container {
-    width: 1170px;
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -44,7 +44,6 @@ img {
 
 .site-logo {
     display: inline-block;
-    padding-left: 40px;
 }
 
 .site-navigation {
@@ -72,7 +71,7 @@ img {
 
 
 .site-navigation li:not(:last-child) {
-    margin-right: 32px;
+    margin-right: 30px;
 }
 
 .site-navigation a {
@@ -81,12 +80,18 @@ img {
     display: block;
 }
 
+.section {
+    margin-bottom: 90px;
+}
 /*GALLERY SECTION*/
-h2 {
+.title {
     font-size: 48px;
     color: #515151;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
 }
 
 h2::after {
@@ -97,15 +102,12 @@ h2::after {
     content: '';
     margin: 0 auto;
     margin-top: 32px;
-    margin-bottom: 90px;
     
 }
 
 .gallery-list {
     margin: 0;
     padding: 0;
-    padding-left: 30px;
-    margin-bottom: 90px;
 }
 
 .gallery-list-item {
@@ -118,6 +120,10 @@ h2::after {
 
 .gallery-list-item:nth-child(4n) {
     margin-right: 0;
+}
+
+.gallery-list-item:nth-child(n+5) {
+    margin-bottom: 0;
 }
 
 
@@ -154,8 +160,10 @@ h2::after {
 .blog-list {
     margin: 0;
     padding: 0;
-    padding-left: 30px;
-    margin-top: 80px;
+}
+
+.blog-list-item img {
+    margin-bottom: 12px;
 }
 
 .blog-list-item {
@@ -164,19 +172,20 @@ h2::after {
     color: #555252;
     line-height: 26px;
     margin-right: 30px;
-    margin-bottom: 46px;
     width: 350px;
     list-style: none;
 
 }
 
-.blog-list-item li:nth-child(3) {
+.blog-list-item:nth-child(3) {
     margin-right: 0px;
 }
 
 .blog-list-item h3 {
     font-size: 18px;
     font-weight: 600;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .blog-list-item h3::after {
@@ -186,12 +195,12 @@ h2::after {
     background-color: #4ec6ab;
     content: '';
     margin-top: 12px;
-    margin-bottom: 30px;
 }
 
 .blog-list-item p {
     font-size: 14px;
     font-weight: 400;
+    margin: 0;
     margin-bottom: 18px;
 }
 
