@@ -81,7 +81,7 @@ img {
 }
 
 .section {
-    margin-bottom: 90px;
+    padding-bottom: 90px;
 }
 /*GALLERY SECTION*/
 .title {
@@ -135,6 +135,7 @@ h2::after {
     text-transform: uppercase;
     width: 255px;
     height: 40px;
+    color: #ffffff;
     margin: 0;
     padding-top: 4px;
     padding-bottom: 4px;
