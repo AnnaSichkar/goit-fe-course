@@ -211,9 +211,12 @@ body {
 .contact .title {
     color: #ffffff;
 }
-
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .contact-list {
-    position: relative;
     margin: 0;
     margin-bottom: 30px;
     padding: 0;
@@ -234,20 +237,17 @@ body {
 
 .contact-list-item input[type="text"]:valid,
 .contact-list-item input[type="email"]:valid,
-.contact-list-item textarea {
+.textarea:valid {
     border: 2px solid #098509;
 }
 
 .contact-list-item input[type="text"]:invalid,
 .contact-list-item input[type="email"]:invalid,
-.contact-list-item textarea {
+.textarea:invalid {
     border: 2px solid #ff0000;
 }
 
-.contact-list-item textarea {
-    position: absolute;
-    top: 0;
-    right: 0;
+.textarea {    
     padding-top: 20px;
     padding-left: 20px;
     width: 455px;
