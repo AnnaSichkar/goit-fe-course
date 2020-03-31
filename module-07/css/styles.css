@@ -254,6 +254,7 @@ body {
     width: 455px;
     height: 214px;
     text-transform: uppercase;
+    border: none;
     border-radius: 2px;
 }
 
