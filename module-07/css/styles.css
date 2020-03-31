@@ -228,6 +228,7 @@ body {
     width: 455px;
     height: 54px;
     text-transform: uppercase;
+    border: none;
     border-radius: 2px;
 }
 
@@ -235,15 +236,15 @@ body {
     margin-bottom: 26px;
 }
 
-.contact-list-item input[type="text"]:valid,
-.contact-list-item input[type="email"]:valid,
-.textarea:valid {
+.contact-list-item input[type="text"]:focus:valid,
+.contact-list-item input[type="email"]:focus:valid,
+.textarea:focus:valid {
     border: 2px solid #098509;
 }
 
-.contact-list-item input[type="text"]:invalid,
-.contact-list-item input[type="email"]:invalid,
-.textarea:invalid {
+.contact-list-item input[type="text"]:focus:invalid,
+.contact-list-item input[type="email"]:focus:invalid,
+.textarea:focus:invalid {
     border: 2px solid #ff0000;
 }
 
