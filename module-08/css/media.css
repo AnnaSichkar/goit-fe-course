@@ -14,7 +14,7 @@
         width: 217px;
     }
 
-    .button {
+    .link {
         width: 280px;
     }
 
@@ -30,7 +30,7 @@
    
 }
 
-@media (min-width: 748px) {
+@media (min-width: 768px) {
     .banner {
         min-height: 700px;
     }
@@ -69,7 +69,7 @@
         line-height: 29px;
     }
 
-    .button {
+    .link {
         width: 230px;
     }
 
@@ -113,7 +113,7 @@
 
 }
 
-@media (min-width: 942px) {
+@media (min-width: 962px) {
     .container {
         width: 942px;
     }
