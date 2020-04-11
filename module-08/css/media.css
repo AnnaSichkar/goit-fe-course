@@ -7,7 +7,7 @@
     }
     
     .site-logo {
-        text-align: center;
+        margin: 0 auto;
     }
 
     .promo-section p {
@@ -39,22 +39,18 @@
         width: 748px;
     }
 
-    .page-nav {
+    .login {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: row-reverse;
         min-height: 120px;
         width: 670px;
-    }
-
-    .login-list {
-        display: flex;
-        justify-content: space-between;
+        margin: 0 auto;
     }
 
     .promo-section {
-        padding-top: 110px;
+        padding-top: 220px;
     }
 
     .promo-section h2 {
@@ -99,7 +95,6 @@
     .partner-list-item:nth-of-type(4) { 
         order: 3;
     }
-
 }
 
 @media (min-width: 748px) and (max-width: 941px) {
@@ -110,7 +105,6 @@
     .partner-list-item:nth-child(odd) {
         margin-bottom: 60px;
     }
-
 }
 
 @media (min-width: 962px) {
