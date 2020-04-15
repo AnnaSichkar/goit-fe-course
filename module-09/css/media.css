@@ -1,0 +1,53 @@
+@media (max-width: 747px) {
+    .login-list {
+        padding-top: 20px;
+        margin-bottom: 110px;
+    }
+    
+    .partner-list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-top: 40px;
+    }
+
+    .banner {
+        min-height: 700px;
+    }
+
+    .promo-section {
+        padding-top: 220px;
+    }
+
+    .promo-section h2 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .promo-section p {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .partner-section h2 {
+        margin-bottom: 30px;
+    }
+
+    .partner-list {
+        margin-bottom: 40px;
+    }
+
+    .partner-list-item {
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 748px) and (max-width: 941px) {
+    .partner-list-item:nth-child(odd) {
+        margin-bottom: 60px;
+    }
+}
