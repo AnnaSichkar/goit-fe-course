@@ -1,0 +1,9 @@
+.section {
+    margin-bottom: 90px;
+}
+
+.section__list {
+    @extend %list;
+    @include flex('all');
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+.button {
+    @extend %link;
+    margin: 0;
+    width: 152px;
+    height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-secondary;
+}
