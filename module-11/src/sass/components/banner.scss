@@ -2,7 +2,7 @@
     min-height: 1000px;
     background-image: linear-gradient(0deg, rgba(252, 227, 138, 0.9) 0%,
                                             rgba(243, 129, 129, 0.9) 100%),
-                                            url(../../images/photo-min/main-photo-min.jpg);
+                                            url(../images/photo-min/main-photo-min.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -53,6 +53,6 @@
     .banner {
         background-image: linear-gradient(0deg, rgba(252, 227, 138, 0.9) 0%,
         rgba(243, 129, 129, 0.9) 100%),
-        url(../../images/photo-min/main-photo@2x-min.jpg);
+        url(../images/photo-min/main-photo@2x-min.jpg);
     }
 }
